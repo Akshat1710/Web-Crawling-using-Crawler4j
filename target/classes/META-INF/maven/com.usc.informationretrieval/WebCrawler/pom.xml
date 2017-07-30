@@ -3,4 +3,26 @@
   <groupId>com.usc.informationretrieval</groupId>
   <artifactId>WebCrawler</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  <slf4jVersion>1.6.1</slf4jVersion>
+  </properties>
+  <dependencies>
+	<dependency>
+	    <groupId>edu.uci.ics</groupId>
+	    <artifactId>crawler4j</artifactId>
+	    <version>4.2</version>
+	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+		<version>${slf4jVersion}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-nop</artifactId>
+		<version>${slf4jVersion}</version>
+	</dependency>
+  </dependencies>
+  
 </project>
